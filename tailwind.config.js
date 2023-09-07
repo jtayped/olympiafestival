@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -9,6 +9,10 @@ module.exports = {
         primary: "#00f6ff",
         secondary: "#ffffff",
         accent: "#00ff89",
+      },
+      fontFamily: {
+        accent: ["Bebas Neue", "sans-serif"],
+        primary: ["Poppins", "sans-serif"],
       },
     },
   },
