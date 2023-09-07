@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Containers
-import { Header } from "./containers";
+import { Header, Footer } from "./containers";
 
 // Pages
 import { Home } from "./pages";
@@ -13,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -2,12 +2,14 @@
 import React from "react";
 
 // Containers
-import { Hero } from "../containers";
+import { Hero, Sponsors, Buy } from "../containers";
 
 const Home = () => {
   return (
     <div className="text-text font-primary">
       <Hero />
+      <Sponsors />
+      <Buy />
     </div>
   );
 };
