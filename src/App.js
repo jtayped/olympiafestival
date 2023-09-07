@@ -1,19 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Containers
-import { Header, Footer } from "./containers";
+import { Header } from "./containers";
 
 // Pages
-import { Home } from "./pages";
+import { Proximament } from "./pages";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Proximament />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
