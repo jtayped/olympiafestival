@@ -5,11 +5,15 @@ import { sponsors } from "../constants/sponsors";
 
 const Sponsors = () => {
   return (
-    <div className="w-full flex justify-center">
-      <nav className="flex items-center justify-around w-[1200px]">
+    <div className="w-full flex justify-center p-4">
+      <nav className="flex flex-wrap items-center justify-around max-w-[1200px]">
         {sponsors.map((sponsor, index) => (
           <a key={index} href={sponsor.link}>
-            <img className="h-[150px] opacity-80" src={sponsor.image} alt="" />
+            <img
+              className="h-[60px] lg:h-[135px] opacity-80 invert-[82%]"
+              src={sponsor.image}
+              alt=""
+            />
           </a>
         ))}
       </nav>

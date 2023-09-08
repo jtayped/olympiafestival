@@ -4,14 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header } from "./containers";
 
 // Pages
-import { Proximament } from "./pages";
+import { Home } from "./pages";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Proximament />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );

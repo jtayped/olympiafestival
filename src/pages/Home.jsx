@@ -2,7 +2,7 @@
 import React from "react";
 
 // Containers
-import { Hero, Sponsors, Buy } from "../containers";
+import { Hero, Sponsors, Buy, Contact } from "../containers";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
       <Hero />
       <Sponsors />
       <Buy />
+      <Contact />
     </div>
   );
 };

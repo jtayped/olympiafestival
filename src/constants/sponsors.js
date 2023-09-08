@@ -1,25 +1,25 @@
-import Redbull from "../assets/sponsors/redbull.png";
-import SalaOne from "../assets/sponsors/sala_one.png";
+import Redbull from "../assets/sponsors/alogo1.webp";
+import SalaOne from "../assets/sponsors/alogo2.webp";
 
 export const sponsors = [
   {
     name: "RedBull",
     image: Redbull,
-    link: "https://www.redbull.com/",
+    link: "https://example.com",
   },
   {
     name: "Sala One",
     image: SalaOne,
-    link: "https://www.instagram.com/salaonemollerussa/",
+    link: "https://example.com",
   },
   {
     name: "RedBull",
     image: Redbull,
-    link: "https://www.redbull.com/",
+    link: "https://example.com",
   },
   {
     name: "Sala One",
     image: SalaOne,
-    link: "https://www.instagram.com/salaonemollerussa/",
+    link: "https://example.com",
   },
 ];
