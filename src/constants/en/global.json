@@ -1,0 +1,61 @@
+{
+  "header": {
+    "nav": [
+      {
+        "name": "Example",
+        "link": "/example"
+      },
+      {
+        "name": "Example",
+        "link": "/example"
+      },
+      {
+        "name": "Example",
+        "link": "/example"
+      }
+    ],
+    "accentBtn": {
+      "name": "Example",
+      "link": "/example"
+    }
+  },
+  "hero": {
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis molestias nesciunt ipsum aliquam doloremque!",
+    "buyBtn": "Tickets",
+    "buyVipBtn": "VIP Tickets",
+    "scrollCta": "Buy tickets"
+  },
+  "buy": {
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur ut quibusdam harum amet impedit soluta cumque molestias officiis vero eos distinctio illum fuga animi quisquam quos libero error possimus alias exercitationem facilis eligendi? Autem id adipisci voluptatem dolore illum?",
+    "buyBtn": "Tickets"
+  },
+  "contact": {
+    "title": "Send us a message!",
+    "inputs": {
+      "name": {
+        "name": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "name": "Email address",
+        "placeholder": "Your email"
+      },
+      "number": {
+        "name": "Telephone number",
+        "placeholder": "Your number"
+      },
+      "reason": {
+        "name": "Why are you contacting us?",
+        "placeholder": "Sponsor",
+        "reasons": ["Sponsor", "Information"]
+      },
+      "message": {
+        "name": "Message",
+        "placeholder": "Your message"
+      }
+    },
+    "submitBtn": {
+      "name": "Send"
+    }
+  }
+}

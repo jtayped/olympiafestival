@@ -1,0 +1,61 @@
+{
+  "header": {
+    "nav": [
+      {
+        "name": "Exemple",
+        "link": "/example"
+      },
+      {
+        "name": "Exemple",
+        "link": "/example"
+      },
+      {
+        "name": "Exemple",
+        "link": "/example"
+      }
+    ],
+    "accentBtn": {
+      "name": "Exemple",
+      "link": "/example"
+    }
+  },
+  "hero": {
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis molestias nesciunt ipsum aliquam doloremque!",
+    "buyBtn": "Entrades",
+    "buyVipBtn": "Entrades VIP",
+    "scrollCta": "Comprar"
+  },
+  "buy": {
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur ut quibusdam harum amet impedit soluta cumque molestias officiis vero eos distinctio illum fuga animi quisquam quos libero error possimus alias exercitationem facilis eligendi? Autem id adipisci voluptatem dolore illum?",
+    "buyBtn": "Entrades"
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "inputs": {
+      "name": {
+        "name": "Nom",
+        "placeholder": "El teu nom"
+      },
+      "email": {
+        "name": "Correu electrònic",
+        "placeholder": "El teu correu electrònic"
+      },
+      "number": {
+        "name": "Número de telèfon",
+        "placeholder": "El teu número de telèfon"
+      },
+      "reason": {
+        "name": "Per què ens contactes?",
+        "placeholder": "Sponsor",
+        "reasons": ["Sponsor", "Informació"]
+      },
+      "message": {
+        "name": "Missatge",
+        "placeholder": "El teu missatge"
+      }
+    },
+    "submitBtn": {
+      "name": "Enviar"
+    }
+  }
+}

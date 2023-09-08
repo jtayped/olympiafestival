@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 // Images
 import Audience from "../assets/backgrounds/audience.jpg";
 
 const Buy = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="w-full flex justify-center py-20">
       <div className="flex max-w-[1200px]">
@@ -25,7 +28,7 @@ const Buy = () => {
               eligendi? Autem id adipisci voluptatem dolore illum?
             </p>
             <button className="border border-white px-3 py-1 mt-2 hover:bg-white hover:text-black transition-colors duration-75">
-              Entrades
+              {t("hero.buyBtn")}
             </button>
           </article>
         </div>

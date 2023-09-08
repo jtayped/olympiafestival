@@ -1,0 +1,61 @@
+{
+  "header": {
+    "nav": [
+      {
+        "name": "Ejemplo",
+        "link": "/example"
+      },
+      {
+        "name": "Ejemplo",
+        "link": "/example"
+      },
+      {
+        "name": "Ejemplo",
+        "link": "/example"
+      }
+    ],
+    "accentBtn": {
+      "name": "Ejemplo",
+      "link": "/example"
+    }
+  },
+  "hero": {
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis molestias nesciunt ipsum aliquam doloremque!",
+    "buyBtn": "Entradas",
+    "buyVipBtn": "Entradas VIP",
+    "scrollCta": "Comprar"
+  },
+  "buy": {
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur ut quibusdam harum amet impedit soluta cumque molestias officiis vero eos distinctio illum fuga animi quisquam quos libero error possimus alias exercitationem facilis eligendi? Autem id adipisci voluptatem dolore illum?",
+    "buyBtn": "Entradas"
+  },
+  "contact": {
+    "title": "Envianos un mensaje!",
+    "inputs": {
+      "name": {
+        "name": "Nombre",
+        "placeholder": "Tu nombre"
+      },
+      "email": {
+        "name": "Correo electronico",
+        "placeholder": "Tu nombre"
+      },
+      "number": {
+        "name": "Numero de telefono",
+        "placeholder": "Tu nombre"
+      },
+      "reason": {
+        "name": "Por que nos contactas?",
+        "placeholder": "Tu nombre",
+        "reasons": ["Sponsor", "Información"]
+      },
+      "message": {
+        "name": "Mensaje",
+        "placeholder": "Tu mensaje"
+      }
+    },
+    "submitBtn": {
+      "name": "Enviar"
+    }
+  }
+}

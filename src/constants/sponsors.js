@@ -3,22 +3,22 @@ import SalaOne from "../assets/sponsors/alogo2.webp";
 
 export const sponsors = [
   {
-    name: "RedBull",
+    name: "Example",
     image: Redbull,
     link: "https://example.com",
   },
   {
-    name: "Sala One",
+    name: "Example",
     image: SalaOne,
     link: "https://example.com",
   },
   {
-    name: "RedBull",
+    name: "Example",
     image: Redbull,
     link: "https://example.com",
   },
   {
-    name: "Sala One",
+    name: "Example",
     image: SalaOne,
     link: "https://example.com",
   },
