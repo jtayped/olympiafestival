@@ -19,10 +19,10 @@ const Hero = () => {
         <p className="text-2xl xs:text-4xl font-accent -mt-4 tracking-[8px] xs:tracking-[12px]">
           PROXIMAMENT
         </p>
-        <div className="flex items-center gap-2 text-lg mt-1 xs:mt-4">
+        <div className="flex items-center gap-2 sm:text-lg mt-1 xs:mt-4">
           <a
             href="https://www.instagram.com/theolympiafestival/"
-            className="flex items-center gap-2 border rounded px-4 py-1 mt-1 hover:bg-white hover:text-black transition-colors duration-50"
+            className="flex items-center gap-2 border rounded px-3 py-1 mt-1 hover:bg-white hover:text-black transition-colors duration-50"
           >
             <AiOutlineInstagram size={25} />
             Segueix-nos
