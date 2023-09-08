@@ -47,15 +47,19 @@
       "reason": {
         "name": "Por que nos contactas?",
         "placeholder": "Tu nombre",
-        "reasons": ["Sponsor", "Información"]
+        "reasons": [
+          { "value": "sponsor", "label": "Sponsor" },
+          {
+            "value": "information",
+            "label": "Información"
+          }
+        ]
       },
       "message": {
         "name": "Mensaje",
         "placeholder": "Tu mensaje"
       }
     },
-    "submitBtn": {
-      "name": "Enviar"
-    }
+    "submitBtn": "Enviar"
   }
 }

@@ -34,11 +34,13 @@
     "inputs": {
       "name": {
         "name": "Nom",
-        "placeholder": "El teu nom"
+        "placeholder": "El teu nom",
+        "error": "Siusplau entri un nom!"
       },
       "email": {
         "name": "Correu electrònic",
-        "placeholder": "El teu correu electrònic"
+        "placeholder": "El teu correu electrònic",
+        "error": "Siusplau utilitzi un correu electrònic."
       },
       "number": {
         "name": "Número de telèfon",
@@ -47,15 +49,20 @@
       "reason": {
         "name": "Per què ens contactes?",
         "placeholder": "Sponsor",
-        "reasons": ["Sponsor", "Informació"]
+        "reasons": [
+          { "value": "sponsor", "label": "Sponsor" },
+          {
+            "value": "information",
+            "label": "Informació"
+          }
+        ]
       },
       "message": {
         "name": "Missatge",
-        "placeholder": "El teu missatge"
+        "placeholder": "El teu missatge",
+        "error": "Es necessita un missatge per contactar-nos!"
       }
     },
-    "submitBtn": {
-      "name": "Enviar"
-    }
+    "submitBtn": "Enviar"
   }
 }

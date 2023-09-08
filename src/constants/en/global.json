@@ -47,15 +47,22 @@
       "reason": {
         "name": "Why are you contacting us?",
         "placeholder": "Sponsor",
-        "reasons": ["Sponsor", "Information"]
+        "reasons": [
+          {
+            "value": "sponsor",
+            "label": "Sponsor"
+          },
+          {
+            "value": "information",
+            "label": "Information"
+          }
+        ]
       },
       "message": {
         "name": "Message",
         "placeholder": "Your message"
       }
     },
-    "submitBtn": {
-      "name": "Send"
-    }
+    "submitBtn": "Send"
   }
 }
