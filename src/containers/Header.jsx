@@ -9,7 +9,11 @@ import Logo from "../assets/logo/main.png";
 // Icons
 import { FiMenu } from "react-icons/fi";
 
+// Components
+import { LanguageChange } from "../components";
+
 const Header = () => {
+  // eslint-disable-next-line
   const [t, i18n] = useTranslation("global");
   const navItems = t("header.nav", { returnObjects: true });
   const accentBtn = t("header.accentBtn", { returnObjects: true });
@@ -20,7 +24,11 @@ const Header = () => {
       <Link to="/">
         <img className="h-14 md:h-20" src={Logo} alt="Olympia Festival Logo" />
       </Link>
+      <div className="hidden lg:flex"></div>
       <nav className="hidden lg:flex items-center gap-10 underline-offset-3 font-accent text-2xl">
+        <div className="text-[17px] mr-7">
+          <LanguageChange />
+        </div>
         {navItems.map((page, index) => (
           <Link className="hover:underline" to={page.link} key={index}>
             {page.name}
