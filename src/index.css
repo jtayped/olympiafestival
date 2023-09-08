@@ -5,5 +5,9 @@
 @tailwind utilities;
 
 body {
-    @apply bg-background
+  @apply bg-background;
+}
+
+.contact-input {
+  @apply bg-transparent border border-white p-2 outline-none text-sm mt-0.5;
 }

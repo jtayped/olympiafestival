@@ -1,6 +1,6 @@
 // React util
 import { Link } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 // Images
@@ -11,14 +11,23 @@ import { FiMenu } from "react-icons/fi";
 
 // Components
 import { LanguageChange } from "../components";
+import Sidebar from "./SideBar";
+
+// Animation
+import { AnimatePresence } from "framer-motion";
 
 const Header = () => {
   // eslint-disable-next-line
   const [t, i18n] = useTranslation("global");
+  const [sidebarShown, setSidebar] = useState(false);
   const navItems = t("header.nav", { returnObjects: true });
   const accentBtn = t("header.accentBtn", { returnObjects: true });
 
-  console.log(accentBtn);
+  function toggleSideBar() {
+    setSidebar(!sidebarShown);
+    console.log(sidebarShown);
+  }
+
   return (
     <header className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-[50px] md:px-[100px] py-10 text-text font-primary">
       <Link to="/">
@@ -41,9 +50,12 @@ const Header = () => {
           {accentBtn.name}
         </Link>
       </nav>
-      <button className="flex lg:hidden">
+      <button onClick={() => toggleSideBar()} className="flex lg:hidden">
         <FiMenu size={25} />
       </button>
+      <AnimatePresence>
+        {sidebarShown ? <Sidebar toggleSidebar={toggleSideBar} /> : null}
+      </AnimatePresence>
     </header>
   );
 };

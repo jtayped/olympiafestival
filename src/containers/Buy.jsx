@@ -9,11 +9,11 @@ const Buy = () => {
 
   return (
     <div className="w-full flex justify-center py-20">
-      <div className="flex max-w-[1200px]">
+      <div className="flex max-w-[900px]">
         <img
           className="w-[120px] sm:w-[300px] object-cover h-[400px]"
           src={Audience}
-          alt=""
+          alt="Crowd of people"
         />
         <div className="flex justify-center">
           <article className="max-w-[500px] p-5 md:p-10">
