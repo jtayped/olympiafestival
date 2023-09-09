@@ -34,19 +34,21 @@
     "inputs": {
       "name": {
         "name": "Nombre",
-        "placeholder": "Tu nombre"
+        "placeholder": "Tu nombre",
+        "error": "Por favor escribe tu nombre!"
       },
       "email": {
         "name": "Correo electronico",
-        "placeholder": "Tu nombre"
+        "placeholder": "Tu correo",
+        "error": "Escribe tu correo electronico..."
       },
       "number": {
         "name": "Numero de telefono",
-        "placeholder": "Tu nombre"
+        "placeholder": "Tu numero"
       },
       "reason": {
         "name": "Por que nos contactas?",
-        "placeholder": "Tu nombre",
+        "placeholder": "",
         "reasons": [
           { "value": "sponsor", "label": "Sponsor" },
           {
@@ -57,7 +59,8 @@
       },
       "message": {
         "name": "Mensaje",
-        "placeholder": "Tu mensaje"
+        "placeholder": "Tu mensaje",
+        "error": "Te has olvidado de escribir tu mensaje!"
       }
     },
     "submitBtn": "Enviar"

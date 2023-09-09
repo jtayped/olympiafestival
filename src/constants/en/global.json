@@ -34,11 +34,13 @@
     "inputs": {
       "name": {
         "name": "Name",
-        "placeholder": "Your name"
+        "placeholder": "Your name",
+        "error": "Please enter your name..."
       },
       "email": {
         "name": "Email address",
-        "placeholder": "Your email"
+        "placeholder": "Your email",
+        "error": "Please write your email!"
       },
       "number": {
         "name": "Telephone number",
@@ -60,7 +62,8 @@
       },
       "message": {
         "name": "Message",
-        "placeholder": "Your message"
+        "placeholder": "Your message",
+        "error": "You haven't written a message."
       }
     },
     "submitBtn": "Send"

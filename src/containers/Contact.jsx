@@ -21,27 +21,24 @@ const Contact = () => {
     event.preventDefault();
 
     // Error handling
-    if (name) {
-      setError("Ple");
-    }
-
-    emailjs
-      .sendForm(
-        "service_5wfmyl9",
-        "template_2fh850m",
-        form.current,
-        "B7hcLfaU_FcnlgJPM"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
+    if (!name) {
+      setError(t("contact.inputs.name.error"));
+    } else if (!email) {
+      setError(t("contact.inputs.email.error"));
+    } else if (!message) {
+      setError(t("contact.inputs.message.error"));
+    } else {
+      emailjs
+        .sendForm(
+          "service_5wfmyl9",
+          "template_2fh850m",
+          form.current,
+          "B7hcLfaU_FcnlgJPM"
+        )
+        .then((error) => {
           console.log(error.text);
-        }
-      );
-
-    console.log(name, email, number, reason, message);
+        });
+    }
   }
   return (
     <div className="flex items-center justify-center w-full p-10">
@@ -49,7 +46,7 @@ const Contact = () => {
         <h2 className="font-accent text-3xl sm:text-5xl">
           {t("contact.title")}
         </h2>
-        <form ref={form} className="mt-2" action={(e) => send(e)}>
+        <form ref={form} className="mt-2" onSubmit={(e) => send(e)}>
           <div className="flex flex-col gap-2 md:gap-4 md:grid md:grid-cols-2">
             <div className="flex flex-col">
               <label htmlFor="from_name">{t("contact.inputs.name.name")}</label>
@@ -113,7 +110,7 @@ const Contact = () => {
                 placeholder={t("contact.inputs.message.placeholder")}
               ></textarea>
             </div>
-            {error ? <p className="text-red-400"></p> : null}
+            {error ? <p className="text-red-500 text-xs">{error}</p> : null}
             <button
               type="submit"
               className="bg-white text-black font-accent py-1 text-lg"
