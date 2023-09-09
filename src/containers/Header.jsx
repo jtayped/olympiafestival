@@ -29,7 +29,7 @@ const Header = () => {
   }
 
   return (
-    <header className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-[50px] md:px-[100px] py-10 text-text font-primary">
+    <header className="fixed top-0 left-0 w-full z-[100] flex justify-between items-center px-[50px] md:px-[100px] py-10 text-text font-primary bg-gradient-to-b from-black/100 to-white/0">
       <Link to="/">
         <img className="h-14 md:h-20" src={Logo} alt="Olympia Festival Logo" />
       </Link>
