@@ -35,7 +35,10 @@ const Contact = () => {
           form.current,
           "B7hcLfaU_FcnlgJPM"
         )
-        .then((error) => {
+        .then(() => {
+          form.current.reset();
+        })
+        .catch((error) => {
           console.log(error.text);
         });
     }
