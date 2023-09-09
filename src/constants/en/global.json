@@ -1,4 +1,8 @@
 {
+  "proximament": {
+    "subtitle": "COMING SOON",
+    "instaBtn": "Follow Us"
+  },
   "header": {
     "nav": [
       {
@@ -31,6 +35,7 @@
   },
   "contact": {
     "title": "Send us a message!",
+    "text": "We'd love to hear from you! Whether you're a music enthusiast or a company interested in sponsoring us, please reach out. Your involvement is crucial to us.",
     "inputs": {
       "name": {
         "name": "Name",

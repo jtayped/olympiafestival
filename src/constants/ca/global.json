@@ -1,4 +1,8 @@
 {
+  "proximament": {
+    "subtitle": "PROXIMAMENT",
+    "instaBtn": "Segueix-nos"
+  },
   "header": {
     "nav": [
       {
@@ -31,6 +35,7 @@
   },
   "contact": {
     "title": "Contacta'ns",
+    "text": "Estem encantats d'escoltar-te! Ja siguis un amant de la música o una empresa interessada en patrocinar-nos, no dubtis a contactar-nos. La teva participació és vital per a nosaltres.",
     "inputs": {
       "name": {
         "name": "Nom",

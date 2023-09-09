@@ -49,10 +49,13 @@ const Contact = () => {
         <h2 className="font-accent text-3xl sm:text-5xl">
           {t("contact.title")}
         </h2>
-        <form ref={form} className="mt-2" onSubmit={(e) => send(e)}>
+        <p>{t("contact.text")}</p>
+        <form ref={form} className="mt-4" onSubmit={(e) => send(e)}>
           <div className="flex flex-col gap-2 md:gap-4 md:grid md:grid-cols-2">
             <div className="flex flex-col">
-              <label htmlFor="from_name">{t("contact.inputs.name.name")}</label>
+              <label className="text-sm" htmlFor="from_name">
+                {t("contact.inputs.name.name")}
+              </label>
               <input
                 type="text"
                 onChange={(e) => setName(e.target.value)}
@@ -62,7 +65,9 @@ const Contact = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label htmlFor="email">{t("contact.inputs.email.name")}</label>
+              <label className="text-sm" htmlFor="email">
+                {t("contact.inputs.email.name")}
+              </label>
               <input
                 type="text"
                 onChange={(e) => setEmail(e.target.value)}
@@ -72,7 +77,9 @@ const Contact = () => {
               />
             </div>
             <div className="flex-col hidden md:flex">
-              <label htmlFor="number">{t("contact.inputs.number.name")}</label>
+              <label className="text-sm" htmlFor="number">
+                {t("contact.inputs.number.name")}
+              </label>
               <input
                 type="text"
                 onChange={(e) => setNumber(e.target.value)}
@@ -82,7 +89,9 @@ const Contact = () => {
               />
             </div>
             <div className="flex flex-col">
-              <label htmlFor="reason">{t("contact.inputs.reason.name")}</label>
+              <label className="text-sm" htmlFor="reason">
+                {t("contact.inputs.reason.name")}
+              </label>
               <select
                 onChange={(e) => setReason(e.target.value)}
                 name="reason"
@@ -102,7 +111,7 @@ const Contact = () => {
               </select>
             </div>
             <div className="flex flex-col col-span-2">
-              <label htmlFor="message">
+              <label className="text-sm" htmlFor="message">
                 {t("contact.inputs.message.name")}
               </label>
               <textarea

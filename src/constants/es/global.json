@@ -1,4 +1,8 @@
 {
+  "proximament": {
+    "subtitle": "PROXIMAMENTE",
+    "instaBtn": "Siguenos"
+  },
   "header": {
     "nav": [
       {
@@ -31,11 +35,12 @@
   },
   "contact": {
     "title": "Envianos un mensaje!",
+    "text": "¡Nos encantaría saber de ti! Ya seas un amante de la música o una empresa interesada en patrocinarnos, por favor, contáctanos. Tu participación es fundamental para nosotros.",
     "inputs": {
       "name": {
         "name": "Nombre",
         "placeholder": "Tu nombre",
-        "error": "Por favor escribe tu nombre!"
+        "error": "¡Por favor escribe tu nombre!"
       },
       "email": {
         "name": "Correo electronico",
@@ -47,7 +52,7 @@
         "placeholder": "Tu numero"
       },
       "reason": {
-        "name": "Por que nos contactas?",
+        "name": "¿Por que nos contactas?",
         "placeholder": "",
         "reasons": [
           { "value": "sponsor", "label": "Sponsor" },
@@ -60,7 +65,7 @@
       "message": {
         "name": "Mensaje",
         "placeholder": "Tu mensaje",
-        "error": "Te has olvidado de escribir tu mensaje!"
+        "error": "¡Te has olvidado de escribir tu mensaje!"
       }
     },
     "submitBtn": "Enviar"

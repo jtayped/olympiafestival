@@ -25,7 +25,6 @@ const Header = () => {
 
   function toggleSideBar() {
     setSidebar(!sidebarShown);
-    console.log(sidebarShown);
   }
 
   return (
@@ -33,7 +32,6 @@ const Header = () => {
       <Link to="/">
         <img className="h-14 md:h-20" src={Logo} alt="Olympia Festival Logo" />
       </Link>
-      <div className="hidden lg:flex"></div>
       <nav className="hidden lg:flex items-center gap-10 underline-offset-3 font-accent text-2xl">
         <div className="text-[17px] mr-7">
           <LanguageChange />
